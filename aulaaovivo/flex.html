@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    ul#paiFlex{
+        width: 500px;
+        height: auto;
+        border: 2px solid tomato;
+        background-color: yellowgreen;
+        margin: auto;
+        padding: 3px;
+        display: flex;
+        list-style: none;
+    }
+    li.filha{
+        width: 120px;
+        height: auto;
+        padding: 3px;
+        background-color: tomato;
+        margin: 2px;
+    }
+    .meuSpan{
+        background-color: violet;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+</style>
+<body>
+    <!--
+    <div id="paiFlex">
+        <div class="filha"></div>
+        <div class="filha"></div>
+        <div class="filha"></div>
+    </div>
+    -->
+    <ul id="paiFlex">
+        <li class="filha">Teste 1</li>
+        <li class="filha">Teste 2</li>
+        <li class="filha">Teste 3</li>
+    </ul>
+    <span class="meuSpan">Marcelo</span>
+</body>
+</html>

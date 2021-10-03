@@ -137,4 +137,11 @@ footer{
     padding: 15px;
     margin:auto;
 }
+input.botao:hover{
+    cursor: pointer;
+    background-color: #F9A825;;
+    border-radius: 25px;
+    transition: 1s;
+
+}
 
